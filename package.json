@@ -1,6 +1,6 @@
 {
   "name": "generator-rnb",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Yeoman generator for jhen0409/react-native-boilerplate",
   "license": "MIT",
   "scripts": {
