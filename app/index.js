@@ -9,7 +9,6 @@ module.exports = generator.Base.extend({
       name: 'appName',
       message: 'What do you want to name your app?',
       default: this.appname.replace(/\s/g, '-'),
-      filter: val => _s.slugify(val),
     }],
     props => {
       this.appName = _s.camelize(props.appName);
