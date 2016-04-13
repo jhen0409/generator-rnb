@@ -1,0 +1,39 @@
+{
+  "name": "generator-rnb",
+  "version": "0.1.0",
+  "description": "A Yeoman generator for jhen0409/react-native-boilerplate",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint app/index.js test.js",
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "plugin",
+    "react",
+    "native",
+    "boilerplate",
+    "redux"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhen0409/generator-rnb.git"
+  },
+  "author": "Jhen <developer@jhen.me>",
+  "bugs": {
+    "url": "https://github.com/jhen0409/generator-rnb/issues"
+  },
+  "homepage": "https://github.com/jhen0409/generator-rnb#readme",
+  "devDependencies": {
+    "eslint": "^2.7.0",
+    "eslint-config-airbnb": "^7.0.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "underscore.string": "^3.0.3",
+    "yeoman-generator": "^0.22.5"
+  }
+}
