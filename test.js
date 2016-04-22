@@ -23,6 +23,7 @@ describe('generator', function () {
   it('generates expected files', done => {
     const expected = [
       '.watchmanconfig',
+      '.buckconfig',
       '.flowconfig',
       '.gitignore',
       '.eslintrc',
@@ -59,7 +60,7 @@ describe('generator', function () {
 
       path.join('android', 'app', 'build.gradle'),
       path.join('android', 'app', 'proguard-rules.pro'),
-      path.join('android', 'app', 'react.gradle'),
+      path.join('android', 'app', 'BUCK'),
       path.join('android', 'app', 'src', 'main', 'AndroidManifest.xml'),
       path.join('android', 'app', 'src', 'main', 'java', 'com', 'testapp', 'MainActivity.java'),
       path.join('android', 'app', 'src', 'main', 'res', 'mipmap-hdpi', 'ic_launcher.png'),

@@ -19,6 +19,7 @@ module.exports = generator.Base.extend({
 
       this.template('watchmanconfig', '.watchmanconfig');
       this.template('flowconfig', '.flowconfig');
+      this.template('buckconfig', '.buckconfig');
       this.template('gitignore', '.gitignore');
       this.template('eslintrc', '.eslintrc');
       this.template('_package.json', 'package.json');
