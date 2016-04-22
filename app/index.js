@@ -1,5 +1,6 @@
 const generator = require('yeoman-generator');
 const _s = require('underscore.string');
+const rimraf = require('rimraf');
 
 module.exports = generator.Base.extend({
   init: function () {
@@ -54,14 +55,17 @@ module.exports = generator.Base.extend({
         'android/app/src/main/java/com/rnboilerplate',
         `android/app/src/main/java/com/${this.appname}`
       );
-      this.fs.copy(this.templatePath('android'), this.destinationPath('android'), {
-        globOptions: {
-          ignore: '**/android/app/src/main/java/com/rnboilerplate/**',
-        },
-      });
+      this.directory('android');
 
       cb();
     });
+  },
+  end: function () {
+    const cb = this.async();
+    rimraf(
+      this.destinationPath('android/app/src/main/java/com/rnboilerplate'),
+      cb
+    );
   },
   install: function () {
     this.installDependencies({ bower: false });

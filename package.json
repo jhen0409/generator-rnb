@@ -33,6 +33,7 @@
     "mocha": "^2.4.5"
   },
   "dependencies": {
+    "rimraf": "^2.5.2",
     "underscore.string": "^3.0.3",
     "yeoman-generator": "^0.22.5"
   }
