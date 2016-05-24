@@ -29,12 +29,13 @@
   "homepage": "https://github.com/jhen0409/generator-rnb#readme",
   "devDependencies": {
     "eslint": "^2.7.0",
-    "eslint-config-airbnb": "^7.0.0",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-import": "^1.8.0",
     "mocha": "^2.4.5"
   },
   "dependencies": {
     "rimraf": "^2.5.2",
     "underscore.string": "^3.0.3",
-    "yeoman-generator": "^0.22.5"
+    "yeoman-generator": "^0.23.3"
   }
 }

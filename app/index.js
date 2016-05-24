@@ -10,8 +10,7 @@ module.exports = generator.Base.extend({
       name: 'appName',
       message: 'What do you want to name your app?',
       default: this.appname.replace(/\s/g, '-'),
-    }],
-    props => {
+    }]).then(props => {
       this.appName = _s.camelize(props.appName);
       this.appname = this.appName.toLowerCase();
       this.name = this.user.git.name();

@@ -1,5 +1,5 @@
 {
-  "extends": "airbnb/base",
+  "extends": "airbnb-base",
   "env": {
     "mocha": true,
     "node": true
@@ -7,6 +7,7 @@
   "rules": {
     "object-shorthand": 0,
     "prefer-template": 0,
-    "consistent-return": 0
+    "consistent-return": 0,
+    "no-underscore-dangle": ["error", { "allow": ["_s"] }]
   }
 }
