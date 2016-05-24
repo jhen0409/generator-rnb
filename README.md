@@ -2,6 +2,12 @@
 
 A [Yeoman](http://yeoman.io) generator for [jhen0409/react-native-boilerplate](https://github.com/jhen0409/react-native-boilerplate).
 
+## Screenshot of boilerplate
+
+![screenshot](https://cloud.githubusercontent.com/assets/3001525/15508320/901e5fe6-2201-11e6-970b-e7c496ab1b16.gif)
+
+> NavigationExperimental, Redux Counter example and Remote Redux DevTools control
+
 ## Installation
 
 ```bash

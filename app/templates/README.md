@@ -4,7 +4,7 @@ Based on [jhen0409/react-native-boilerplate](https://github.com/jhen0409/react-n
 
 ## Included
 
-* [React](https://github.com/facebook/react) & [React Native](https://github.com/facebook/react-native) v0.24
+* [React](https://github.com/facebook/react) & [React Native](https://github.com/facebook/react-native) v0.26
 * [Redux](https://github.com/reactjs/redux) & [Remote Redux DevTools](https://github.com/zalmoxisus/remote-redux-devtools) & [On Debugger](https://github.com/jhen0409/remote-redux-devtools-on-debugger)
 * [Immutable](https://github.com/facebook/immutable-js) & [Immutable DevTools](https://github.com/andrewdavey/immutable-devtools)
 * [Babel](https://github.com/babel/babel) & Plugins: [transform-decorators-legacy](https://github.com/loganfsmyth/babel-plugin-transform-decorators-legacy)
