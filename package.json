@@ -1,7 +1,7 @@
 {
   "name": "generator-rnb",
   "version": "0.4.0",
-  "description": "A Yeoman generator for jhen0409/react-native-boilerplate",
+  "description": "Scaffold out a react-native app",
   "license": "MIT",
   "scripts": {
     "lint": "eslint app/index.js test.js",
