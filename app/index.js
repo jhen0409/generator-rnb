@@ -27,7 +27,6 @@ module.exports = generator.Base.extend({
       this.template('babelrc', '.babelrc');
       this.template('index.android.js');
       this.template('index.ios.js');
-      this.template('necard-patch.js');
 
       this.directory('src', 'src');
       this.directory('test', 'test');
