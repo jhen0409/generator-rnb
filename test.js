@@ -36,7 +36,9 @@ describe('generator', function () {
 
       path.join('src', 'actions', 'counter.js'),
       path.join('src', 'components', 'Counter.js'),
-      path.join('src', 'containers', 'App.js'),
+      path.join('src', 'containers', 'Home.js'),
+      path.join('src', 'containers', 'Counter.js'),
+      path.join('src', 'containers', 'Router.js'),
       path.join('src', 'reducers', 'counter.js'),
       path.join('src', 'reducers', 'index.js'),
       path.join('src', 'configureStore.js'),
@@ -63,6 +65,7 @@ describe('generator', function () {
       path.join('android', 'app', 'BUCK'),
       path.join('android', 'app', 'src', 'main', 'AndroidManifest.xml'),
       path.join('android', 'app', 'src', 'main', 'java', 'com', 'testapp', 'MainActivity.java'),
+      path.join('android', 'app', 'src', 'main', 'java', 'com', 'testapp', 'MainApplication.java'),
       path.join('android', 'app', 'src', 'main', 'res', 'mipmap-hdpi', 'ic_launcher.png'),
       path.join('android', 'app', 'src', 'main', 'res', 'mipmap-mdpi', 'ic_launcher.png'),
       path.join('android', 'app', 'src', 'main', 'res', 'mipmap-xhdpi', 'ic_launcher.png'),
